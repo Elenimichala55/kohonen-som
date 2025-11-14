@@ -30,27 +30,31 @@ Training error is consistently higher than testing error (as expected)
 # Example Results
 Here are several experiment configurations:
 
-Learning Rate 0.9, Grid 50×50, Epochs 50
+- Learning Rate 0.9, Grid 50×50, Epochs 50
 
 <img width="647" height="401" alt="image" src="https://github.com/user-attachments/assets/7c7a4081-d9fd-475e-b8ae-a07c545b3ec8" />
 
+
 <img width="688" height="743" alt="image" src="https://github.com/user-attachments/assets/7ee7cf66-6429-4ecd-ab65-f53f8978c6b0" />
 
-Learning Rate 0.5, Grid 50×50, Epochs 50
+- Learning Rate 0.5, Grid 50×50, Epochs 50
 
 <img width="649" height="395" alt="image" src="https://github.com/user-attachments/assets/1a1257a7-c50c-45ef-900c-64ca43df8197" />
 
+
 <img width="677" height="722" alt="image" src="https://github.com/user-attachments/assets/24b04bf1-f0dd-4825-8441-2a3bde2cf3c0" />
 
-Learning Rate 0.7, Grid 80×80, Epochs 50
+- Learning Rate 0.7, Grid 80×80, Epochs 50
 
 <img width="685" height="407" alt="image" src="https://github.com/user-attachments/assets/08869a4d-3849-48c2-83c6-f075308c9170" />
 
+
 <img width="707" height="707" alt="image" src="https://github.com/user-attachments/assets/df1a54dc-d17e-40cd-b061-880457b7f3ed" />
 
-Learning Rate 0.7, Grid 120×120, Epochs 50
+- Learning Rate 0.7, Grid 120×120, Epochs 50
 
 <img width="642" height="388" alt="image" src="https://github.com/user-attachments/assets/014ded55-83e7-45d5-965b-5f2f292e3c05" />
+
 
 <img width="752" height="753" alt="image" src="https://github.com/user-attachments/assets/088ecadb-7b60-47d6-be4f-23483233b046" />
 
