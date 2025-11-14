@@ -6,7 +6,7 @@ of handwritten English characters.
 The system reads training and testing datasets of handwritten characters, allows the user to configure SOM parameters,
 and produces error data across epochs.
 
-# Features:
+## Features:
   SOM implemented fully in Java
   Supports configurable:
       - Grid size(eg., 50x50, 80x80, 120x120)
@@ -16,7 +16,7 @@ and produces error data across epochs.
   Computes and presents training vs testing error per epoch
   Demonstrates how grid size, learning rate, and epochs affect SOM performance
 
-# How the SOM works:
+## How the SOM works:
 Each neuron stores a weight vector representing features of handwritten characters
 The SOM updates:
   - Best Matching Unit (BMU)
@@ -26,7 +26,7 @@ Learning rate and neighbourhood radius decay over time
 Larger grids -> higher chance of finding better BMUs
 Training error is consistently higher than testing error (as expected)
 
-# Example Results
+## Example Results
 Here are several experiment configurations:
 
 - Learning Rate 0.9, Grid 50×50, Epochs 50
@@ -56,10 +56,10 @@ Here are several experiment configurations:
 
 <img width="752" height="753" alt="image" src="https://github.com/user-attachments/assets/088ecadb-7b60-47d6-be4f-23483233b046" />
 
-# Conclusion
+## Conclusion
 Larger grids and 50+ epochs lead to better clustering accuracy, while optimal learning rate is 0.5-0.7.
 
-# Project Structure
+## Project Structure
 
 kohonen-som/
 
@@ -93,16 +93,16 @@ kohonen-som/
 └── README.md
 
 
-# How to run
+## How to run
 
-1. Clone the repository
+### **1. Clone the repository**
       git clone https://github.com/Elenimichala55/kohonen-som.git
       cd kohonen-som
 
-2. Compile the Java source files
+### **2. Compile the Java source files**
       javac src/*.java
 
-3. Run the program
+### **3. Run the program**
       java -cp src Network
 
 The program will ask for:
@@ -114,8 +114,7 @@ The program will ask for:
 - Java 11 or newer (OpenJDK or Oracle JDK)
 - Terminal access (Linux, macOS, or Windows WSL)
 
-# Author:
+## Author:
 **Eleni Michala**  
 MSc Applied Artificial Intelligence (University of Warwick)
-
 BSc Computer Science (University of Cyprus)
