@@ -62,6 +62,7 @@ Larger grids and 50+ epochs lead to better clustering accuracy, while optimal le
 # Project Structure
 
 kohonen-som/
+
 │
 ├── src/
 │   ├── Network.java
