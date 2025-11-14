@@ -59,6 +59,50 @@ Here are several experiment configurations:
 # Conclusion
 Larger grids and 50+ epochs lead to better clustering accuracy, while optimal learning rate is 0.5-0.7.
 
+# Project Structure
+
+kohonen-som/
+│
+├── src/
+│   ├── Network.java
+│   └── Node.java
+│
+├── datasets/
+│   ├── training.txt
+│   └── test.txt
+│
+├── results/
+│   ├── results.txt   (or any images/plots you add later)
+│   └── clustering.txt
+│
+├── .gitignore
+└── README.md
 
 
+# How to run
 
+1. Clone the repository
+      git clone https://github.com/Elenimichala55/kohonen-som.git
+      cd kohonen-som
+
+2. Compile the Java source files
+      javac src/*.java
+
+3. Run the program
+      java -cp src Network
+
+The program will ask for:
+- Grid size
+- Learning rate
+- Number of epochs
+
+
+Author
+
+Eleni Michala
+MSc Applied Artificial Intelligence (University of Warwick)
+BSc Computer Science (University of Cyprus)
+
+### Java version requirements
+- Java 11 or newer (OpenJDK or Oracle JDK)
+- Terminal access (Linux, macOS, or Windows WSL)
