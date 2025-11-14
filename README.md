@@ -72,15 +72,24 @@ kohonen-som/
 │   └── Node.java
 
 │
+
 ├── datasets/
+
 │   ├── training.txt
+
 │   └── test.txt
+
 │
 ├── results/
-│   ├── results.txt   (or any images/plots you add later)
+
+│   ├── results.txt
+
 │   └── clustering.txt
+
 │
+
 ├── .gitignore
+
 └── README.md
 
 
@@ -101,13 +110,12 @@ The program will ask for:
 - Learning rate
 - Number of epochs
 
-
-Author
-
-Eleni Michala
-MSc Applied Artificial Intelligence (University of Warwick)
-BSc Computer Science (University of Cyprus)
-
-### Java version requirements
+## Java version requirements
 - Java 11 or newer (OpenJDK or Oracle JDK)
 - Terminal access (Linux, macOS, or Windows WSL)
+
+# Author:
+**Eleni Michala**  
+MSc Applied Artificial Intelligence (University of Warwick)
+
+BSc Computer Science (University of Cyprus)
