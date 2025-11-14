@@ -64,9 +64,13 @@ Larger grids and 50+ epochs lead to better clustering accuracy, while optimal le
 kohonen-som/
 
 │
+
 ├── src/
+
 │   ├── Network.java
+
 │   └── Node.java
+
 │
 ├── datasets/
 │   ├── training.txt
