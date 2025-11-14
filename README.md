@@ -18,10 +18,11 @@ and produces error data across epochs.
   Demonstrates how grid size, learning rate, and epochs affect SOM performance
 
 # How the SOM works:
-Each newuron stores a weight vector representing features of handwritten characters
+Each neuron stores a weight vector representing features of handwritten characters
 The SOM updates:
   - Best Matching Unit (BMU)
   - Neighbouring neurons (Gaussian neighbourhood)
+  - 
 Learning rate and neighbourhood radius decay over time
 Larger grids -> higher chance of finding better BMUs
 Training error is consistently higher than testing error (as expected)
