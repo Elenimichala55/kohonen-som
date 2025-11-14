@@ -1,4 +1,3 @@
-# kohonen-som
 # Kohonen Self Organising Map (Java Implementation)
 
 This project implements a Kohonen Self-Organizing Map (SOM) in Java for the clustering and visualization
