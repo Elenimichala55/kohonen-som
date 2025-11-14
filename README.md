@@ -63,34 +63,27 @@ Larger grids and 50+ epochs lead to better clustering accuracy, while optimal le
 
 kohonen-som/
 
-│
+── src/
 
-├── src/
+   ── Network.java
 
-│   ├── Network.java
+   ── Node.java
 
-│   └── Node.java
+── datasets/
 
-│
+   ── training.txt
 
-├── datasets/
+   ── test.txt
 
-│   ├── training.txt
+── results/
 
-│   └── test.txt
+   ── results.txt
 
-│
-├── results/
+   ── clustering.txt
 
-│   ├── results.txt
+── .gitignore
 
-│   └── clustering.txt
-
-│
-
-├── .gitignore
-
-└── README.md
+── README.md
 
 
 ## How to run
@@ -116,5 +109,5 @@ The program will ask for:
 
 ## Author:
 **Eleni Michala**  
-MSc Applied Artificial Intelligence (University of Warwick)
+MSc Applied Artificial Intelligence (University of Warwick) | 
 BSc Computer Science (University of Cyprus)
