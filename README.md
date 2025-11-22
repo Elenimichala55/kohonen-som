@@ -1,4 +1,4 @@
-# Kohonen Self Organising Map (Java Implementation)
+# Kohonen Self Organising Map (Python Implementation)
 
 This project implements a Kohonen Self-Organizing Map (SOM) in Python for the clustering and visualization
 of handwritten English characters.
@@ -81,20 +81,26 @@ kohonen-som
       git clone https://github.com/Elenimichala55/kohonen-som.git
       cd kohonen-som
 
-### **2. Compile the Java source files**
-      javac src/*.java
+### **2. Create and activate a virtual environment**
+      python3 -m venv venv
+      source venv/bin/activate   # Linux/macOS
 
-### **3. Run the program**
-      java -cp src Network
+### **3. Install dependencies**
+      pip install numpy
+      
+### **4. Run the SOM**
+      python3 main.py
 
 The program will ask for:
 - Grid size
 - Learning rate
 - Number of epochs
+Outputs will appear inside the results/ folder.
 
-## Java version requirements
-- Java 11 or newer (OpenJDK or Oracle JDK)
-- Terminal access (Linux, macOS, or Windows WSL)
+## Requirements
+Python 3.10 or newer
+NumPy
+Linux/macOS/WSL recommended
 
 ## Author:
 **Eleni Michala**  
