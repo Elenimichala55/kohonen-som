@@ -61,30 +61,17 @@ Larger grids and 50+ epochs lead to better clustering accuracy, while optimal le
 
 ## Project Structure
 
-kohonen-som/
-
-├── src/
-
-│   ├── Network.java
-
-│   └── Node.java
-
-├── datasets/
-
-│   ├── training.txt
-
-│   └── test.txt
-
-├── results/
-
-│   ├── results.txt
-
-│   └── clustering.txt
-
-├── .gitignore
-
-└── README.md
-
+kohonen-som
+├── README.md
+├── datasets
+│   ├── test.txt
+│   └── training.txt
+├── results
+│   ├── clustering.txt
+│   └── results.txt
+└── src
+    ├── Network.java
+    └── Node.java
 
 ## How to run
 
@@ -109,5 +96,5 @@ The program will ask for:
 
 ## Author:
 **Eleni Michala**  
-MSc Applied Artificial Intelligence (University of Warwick) | 
-BSc Computer Science (University of Cyprus)
+- MSc Applied Artificial Intelligence (University of Warwick) | 
+- BSc Computer Science (University of Cyprus)
