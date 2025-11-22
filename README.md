@@ -61,10 +61,6 @@ Larger grids and 50+ epochs lead to better clustering accuracy, while optimal le
 
 ## Project Structure
 ```    
-xdg-open index.html     # Linux
-open index.html         # macOS
-start index.html        # Windows
-
 kohonen-som
 ├── README.md
 ├── datasets
