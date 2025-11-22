@@ -71,6 +71,7 @@ kohonen-som
 ├── network.py
 ├── node.py
 ├── main.py
+├── .gitignore
 └── README.md
 ```
 
