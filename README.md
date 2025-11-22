@@ -1,13 +1,13 @@
 # Kohonen Self Organising Map (Java Implementation)
 
-This project implements a Kohonen Self-Organizing Map (SOM) in Java for the clustering and visualization
+This project implements a Kohonen Self-Organizing Map (SOM) in Python for the clustering and visualization
 of handwritten English characters.
 
 The system reads training and testing datasets of handwritten characters, allows the user to configure SOM parameters,
 and produces error data across epochs.
 
 ## Features:
-  SOM implemented fully in Java
+  SOM implemented in Python
   Supports configurable:
       - Grid size(eg., 50x50, 80x80, 120x120)
       - Learning rate
@@ -62,16 +62,16 @@ Larger grids and 50+ epochs lead to better clustering accuracy, while optimal le
 ## Project Structure
 ```    
 kohonen-som
-├── README.md
 ├── datasets
 │   ├── test.txt
 │   └── training.txt
 ├── results
 │   ├── clustering.txt
 │   └── results.txt
-└── src
-    ├── Network.java
-    └── Node.java
+├── network.py
+├── node.py
+├── main.py
+└── README.md
 ```
 
 ## How to run
@@ -97,5 +97,5 @@ The program will ask for:
 
 ## Author:
 **Eleni Michala**  
-- MSc Applied Artificial Intelligence (University of Warwick) | 
+- MSc Applied Artificial Intelligence (University of Warwick) 
 - BSc Computer Science (University of Cyprus)
