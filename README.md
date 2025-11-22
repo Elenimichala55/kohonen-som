@@ -60,6 +60,10 @@ Here are several experiment configurations:
 Larger grids and 50+ epochs lead to better clustering accuracy, while optimal learning rate is 0.5-0.7.
 
 ## Project Structure
+```    
+xdg-open index.html     # Linux
+open index.html         # macOS
+start index.html        # Windows
 
 kohonen-som
 ├── README.md
@@ -72,6 +76,7 @@ kohonen-som
 └── src
     ├── Network.java
     └── Node.java
+```
 
 ## How to run
 
