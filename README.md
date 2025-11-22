@@ -100,7 +100,9 @@ Outputs will appear inside the results/ folder.
 
 ## Requirements
 Python 3.10 or newer
+
 NumPy
+
 Linux/macOS/WSL recommended
 
 ## Author:
