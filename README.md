@@ -95,6 +95,7 @@ The program will ask for:
 - Grid size
 - Learning rate
 - Number of epochs
+
 Outputs will appear inside the results/ folder.
 
 ## Requirements
